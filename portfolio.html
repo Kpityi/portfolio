@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="hu">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+    <link rel="stylesheet" href="./css/custom.css" />
+    <link rel="shortcut icon" href="./img/favicon.png" type="image/x-icon" />
+
+    <title>Kertész István Portfólió oldala</title>
+  </head>
+  <body>
+    <header>
+      <div class="header-img d-flex justify-content-between align-items-center">
+        <div class="name">
+          <h1 class="text-warning text-center container-fluid ms-2">
+            Kertész István Portfólió oldala
+          </h1>
+        </div>
+        <div class="img-container">
+          <img src="./img/favicon.png" class="mt-2 container-fluid" alt="" />
+        </div>
+      </div>
+
+      <nav
+        class="navbar navbar-expand-lg bg-body-tertiary ps-5"
+        data-bs-theme="dark">
+        <div class="container-fluid">
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="offcanvas"
+            data-bs-target="#offcanvasDarkNavbar"
+            aria-controls="offcanvasDarkNavbar"
+            aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div
+            class="offcanvas offcanvas-start"
+            tabindex="-1"
+            id="offcanvasDarkNavbar"
+            aria-labelledby="offcanvasDarkNavbarLabel">
+            <div class="offcanvas-header">
+              <h5 class="offcanvas-title" id="offcanvasDarkNavbarLabel">
+                Menü
+              </h5>
+              <button
+                type="button"
+                class="btn-close btn-close-white"
+                data-bs-dismiss="offcanvas"
+                aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body">
+              <ul
+                class="navbar-nav nav-underline justify-content-start flex-grow-1 pe-3">
+                <li class="nav-item">
+                  <a class="nav-link" aria-current="page" href="./index.html"
+                    >Rólam</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="./cv.html">Önéletrajz</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link active" href="./portfolio.html">Portfolio</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <section class="container mt-5 mb-5 w-50-md  rounded-5">
+        <h1 class="text-center my-4">Portfólió</h1>
+        <div class="card-group">
+          <div class="card m-2 text-center">
+            <img src="./img/portfolio1.png" class="card-img-top  p-1" alt="puzzle game" >
+            <div class="card-body">
+              <h5 class="card-title">Puzzle Game</h5>
+              <p class="card-text" >
+                Kocka puzzle játék három nehézségi szinttel.
+              </p>              
+              <a href="https://cube-puzzle-game.netlify.app" target="_blank" class="btn btn-primary">
+                Megnézem
+              </a>        
+            </div>
+          </div>
+          <div class="card m-2 text-center">
+            <img src="./img/portfolio2.png" class="card-img-top  p-1" alt="puzzle game" >
+            <div class="card-body">
+              <h5 class="card-title">Memory Game</h5>
+              <p class="card-text" >Memória játék az eredet találd ki kártyákkal.</p>              
+              <a href="https://guess-who-memory-game.netlify.app" target="_blank" class="btn btn-primary">
+                Megnézem
+              </a>        
+            </div>
+          </div>
+          <div class="card m-2 text-center">
+            <img src="./img/portfolio3.png" class="card-img-top  p-1" alt="puzzle game" >
+            <div class="card-body">
+              <h5 class="card-title">Linkgyűjtemény/h5>
+              <p class="card-text" >Pár hasznos link a webfejlesztéshez.</p>              
+              <a href="https://usefullinks.netlify.app/#!/" target="_blank" class="btn btn-primary">
+                Megnézem
+              </a>        
+            </div>
+          </div>
+          <div class="card m-2 text-center">
+            <img src="./img/portfolio4.png" class="card-img-top  p-1" alt="puzzle game" >
+            <div class="card-body">
+              <h5 class="card-title">Horgászni mentem</h5>
+              <p class="card-text" >Weather app kiegészítve solunáris naptárral és vízállás adatokkal.</p>              
+              <a href="https://horgasznimentem.netlify.app" target="_blank" class="btn btn-primary">
+                Megnézem
+              </a>        
+            </div>
+          </div>
+          <div class="card m-2 text-center">
+            <img src="./img/portfolio5.png" class="card-img-top  p-1" alt="puzzle game" >
+            <div class="card-body">
+              <h5 class="card-title">To Do List</h5>
+              <p class="card-text" >A szokványos teendők listája. A lista a localstorage-ban eltárolódik</p>              
+              <a href="https://todolist-kpityi.netlify.app" target="_blank" class="btn btn-primary">
+                Megnézem
+              </a>        
+            </div>
+          </div>
+          <div class="card m-2 text-center">
+            <img src="./img/portfolio6.png" class="card-img-top  p-1" alt="puzzle game" >
+            <div class="card-body">
+              <h5 class="card-title">Star Wars Universe</h5>
+              <p class="card-text" >Star Wars szereplők adatainak lekérés külső API-ból.</p>              
+              <a href="https://starwarsuniverse-pityi.netlify.app/" target="_blank" class="btn btn-primary">
+                Megnézem
+              </a>        
+            </div>
+          </div>
+          <div class="card m-2 text-center">
+            <img src="./img/portfolio7.png" class="card-img-top  p-1" alt="puzzle game" >
+            <div class="card-body">
+              <h5 class="card-title">Orsi fodrászat</h5>
+              <p class="card-text" >Egy fodrászat egyszerű bemutatkozó weboldala. (Csak bemutatásra szánt oldal nem valós projekt!)</p>              
+              <a href="https://orsifodraszat.netlify.app" target="_blank" class="btn btn-primary">
+                Megnézem
+              </a>        
+            </div>
+          </div>
+          <div class="card m-2 text-center">
+            <img src="./img/portfolio8.png" class="card-img-top  p-1" alt="puzzle game" >
+            <div class="card-body">
+              <h5 class="card-title">Belinp klíma</h5>
+              <p class="card-text" >Klímák telepítésével, karbantartásával foglalkozó válalkozó weboldala. (Csak bemutatásra szánt oldal nem valós projekt!) </p>              
+              <a href="https://belinoklima.netlify.app/" target="_blank" class="btn btn-primary">
+                Megnézem
+              </a>        
+            </div>
+          </div>
+          <div class="card m-2 text-center">
+            <img src="./img/portfolio9.png" class="card-img-top  p-1" alt="puzzle game" >
+            <div class="card-body">
+              <h5 class="card-title">Dr. Szanda István Ügyvéd</h5>
+              <p class="card-text" >Egy Ügyvéd bemutatkozó oldala (Csak bemutatásra szánt oldal nem valós projekt!)</p>              
+              <a href="https://drszandaistvan.netlify.app/" target="_blank" class="btn btn-primary">
+                Megnézem
+              </a>        
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <div
+        class="container-fluid d-flex flex-wrap justify-content-between align-items-center bg-dark text-bg-dark p-3">
+        <div class="facebook m-2">
+          <a href="https://www.facebook.com/pityi.pityi.31">
+            <i class="fab fa-facebook me-1">
+            </i>
+            <span> Facebook </span>
+          </a>
+        </div>
+        <div class="linkedin m-2">
+          <a
+            href="https://www.linkedin.com/in/istv%C3%A1n-kert%C3%A9sz-489311236/">
+            <i class="fab fa-linkedin me-1">
+            </i>
+            <span> LinkedIn </span>
+          </a>
+        </div>
+        <div class="github m-2">
+          <a href="https://github.com/Kpityi">
+            <i class="fab fa-github me-1">
+            </i>
+            <span>GitHub</span>
+          </a>
+        </div>
+        <div class="gmail m-2">
+          <a href="mailto:kertesz.istvan.1983@gmail.com">
+            <i class="fas fa-envelope me-1">
+            </i>
+            <span> E-mail: kertesz.istvan.1983@gmail.com </span>
+          </a>
+        </div>
+        <div class="phone m-2">
+          <a href="tel:+36303390610">
+            <i class="fas fa-mobile-screen me-1">
+            </i>
+            <span>Telefon: +36-30/339-06-10</span>
+          </a>
+        </div>
+      </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="./js/app.js"></script>
+  </body>
+</html>
