@@ -65,7 +65,7 @@ section {
 cursor: pointer;
 }
 .cv-aside{
-  background-color: grey;
+  background-color: rgb(164, 158, 158);
 }
 .image-box img{
   max-width: 150px;
