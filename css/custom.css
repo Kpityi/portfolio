@@ -1,73 +1,75 @@
-body{
+body {
   background-image: url("../img/bg-main.jpg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  
 }
-.header-img{
-background-image: url("../img/header_img.png");
-min-height: 100px;
-background-size: cover;
-background-position: center;
-background-repeat: no-repeat;
+.header-img {
+  background-image: url("../img/header_img.png");
+  min-height: 100px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
-.name{
+.name {
   max-width: 350px;
 }
-.name h1{
+.name h1 {
   font-size: 2.5rem;
-  color: #f9ff21
+  color: #f9ff21;
 }
-.img-container img{
+.img-container img {
   max-width: 200px;
 }
 main {
-	min-height: calc(100vh - 100px) !important;
+  min-height: calc(100vh - 100px) !important;
 }
 section {
   background-color: rgba(255, 255, 255, 0.8);
 }
-.text-justify{
+.text-justify {
   text-align: justify;
   text-justify: inter-word;
 }
-.skill{
-  font-family: 'Dancing Script', cursive;
+.skill {
+  font-family: "Dancing Script", cursive;
   text-align: center;
   padding-top: 2rem;
   font-weight: 700;
   font-weight: bolder;
-  text-shadow: .4rem .1rem .4rem;
+  text-shadow: 0.4rem 0.1rem 0.4rem;
 }
-.skill-box{
+.skill-box {
   display: grid;
-  grid-template-columns: auto auto auto auto auto  ;
-  margin: .1rem;  
+  grid-template-columns: repeat(auto-fill, minmax(160px, 2fr));
+  grid-gap: 0.1rem;
+  overflow-x: auto;
+  white-space: nowrap;
 }
-.skill-card img{
+
+.skill-card img {
   width: 7rem;
 }
-.skill-card{
-  margin: .8rem;
+.skill-card {
+  margin: 0.8rem;
   text-align: center;
-  background-color: rgba(255, 255, 255, .6);
-  border: .1rem solid rgba(0, 0, 0, 0.2);
-  box-shadow: 0.3rem 0.1rem 0.8rem rgba(0, 0, 0, .8);
-  border-radius: .5rem;
+  background-color: rgba(255, 255, 255, 0.6);
+  border: 0.1rem solid rgba(0, 0, 0, 0.2);
+  box-shadow: 0.3rem 0.1rem 0.8rem rgba(0, 0, 0, 0.8);
+  border-radius: 0.5rem;
   width: 150px;
   height: 200px;
 }
-.skill-title{
-  margin: 1rem .5rem 1rem .5rem;
+.skill-title {
+  margin: 1rem 0.5rem 1rem 0.5rem;
 }
-.skill-card:hover{
-cursor: pointer;
+.skill-card:hover {
+  cursor: pointer;
 }
-.cv-aside{
+.cv-aside {
   background-color: rgb(164, 158, 158);
 }
-.image-box img{
+.image-box img {
   max-width: 150px;
   border-radius: 50%;
 }
@@ -76,33 +78,30 @@ cursor: pointer;
   letter-spacing: 3px;
   text-transform: uppercase;
 }
-.card{
+.card {
   min-width: 250px;
   max-width: 300px;
   border: 1px solid gray !important;
   border-radius: 10px !important;
 }
 
-
 footer span {
-  color: white
+  color: white;
 }
 footer a {
   text-decoration: none;
 }
-@media screen and (max-width:600px) {
-  .header-img{
+@media screen and (max-width: 600px) {
+  .header-img {
     min-height: 100px;
     max-height: 200px;
   }
   .name {
-    
     margin-left: -10;
-    
   }
 }
 
-@media only screen and (max-width: 1050px) {
+/* @media only screen and (max-width: 1050px) {
   .skill-box{
     display: grid;
     grid-template-columns: auto auto;
@@ -118,4 +117,4 @@ footer a {
     margin: .1rem;
   }
 
-}
+} */
