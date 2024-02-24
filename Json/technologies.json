@@ -1,0 +1,84 @@
+{
+  "technologies": [
+    {
+      "id": 1,
+      "name": "Adobe Photoshop",
+      "logo": "photoshop.png"
+    },
+    {
+      "id": 2,
+      "name": "HTML",
+      "logo": "html5.png"
+    },
+    {
+      "id": 3,
+      "name": "CSS - SCSS",
+      "logo": "css3.png"
+    },
+    {
+      "id": 4,
+      "name": "Bootstrap",
+      "logo": "Bootstrap.png"
+    },
+    {
+      "id": 5,
+      "name": "JavaScript",
+      "logo": "js.png"
+    },
+    {
+      "id": 6,
+      "name": "AngularJS",
+      "logo": "AngularJS.png"
+    },
+    {
+      "id": 7,
+      "name": "React",
+      "logo": "react.png"
+    },
+    {
+      "id": 8,
+      "name": "PHP",
+      "logo": "php.png"
+    },
+    {
+      "id": 9,
+      "name": "NodeJS",
+      "logo": "nodeJs.png"
+    },
+    {
+      "id": 10,
+      "name": "Python",
+      "logo": "python.png"
+    },
+    {
+      "id": 11,
+      "name": "C#",
+      "logo": "csharp.png"
+    },
+    {
+      "id": 12,
+      "name": "MySQL",
+      "logo": "MySQL.png"
+    },
+    {
+      "id": 13,
+      "name": "Adatbázis kezelés",
+      "logo": "database.png"
+    },
+    {
+      "id": 14,
+      "name": "Wordpress",
+      "logo": "wp.png"
+    },
+    {
+      "id": 15,
+      "name": "Joomla",
+      "logo": "joomla.png"
+    },
+    {
+      "id": 16,
+      "name": "Github",
+      "logo": "github.png"
+    }
+  ]
+}

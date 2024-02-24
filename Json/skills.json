@@ -1,0 +1,113 @@
+{
+  "skills": [
+    {
+      "id": 1,
+      "name": "Microsoft Office",
+      "icon": "fa-brands fa-windows",
+      "percent": 40
+    },
+    {
+      "id": 2,
+      "name": "Microsoft Windows",
+      "icon": "fa-brands fa-microsoft",
+      "percent": 70
+    },
+    {
+      "id": 3,
+      "name": "Adobe Photoshop",
+      "icon": "fa-regular fa-images",
+      "percent": 40
+    },
+    {
+      "id": 4,
+      "name": "HTML",
+      "icon": "fa-brands fa-html5",
+      "percent": 60
+    },
+    {
+      "id": 5,
+      "name": "CSS - SCSS",
+      "icon": "fa-brands fa-css3-alt",
+      "percent": 50
+    },
+    {
+      "id": 6,
+      "name": "Bootstrap",
+      "icon": "fa-brands fa-bootstrap",
+      "percent": 40
+    },
+    {
+      "id": 7,
+      "name": "JavaScript",
+      "icon": "fa-brands fa-js",
+      "percent": 60
+    },
+    {
+      "id": 8,
+      "name": "AngularJS",
+      "icon": "fa-brands fa-anhular",
+      "percent": 30
+    },
+    {
+      "id": 9,
+      "name": "React",
+      "icon": "fa-brands fa-react",
+      "percent": 30
+    },
+    {
+      "id": 10,
+      "name": "PHP",
+      "icon": "fa-brands fa-php",
+      "percent": 20
+    },
+    {
+      "id": 11,
+      "name": "NodeJS",
+      "icon": "fa-brands fa-node",
+      "percent": 20
+    },
+    {
+      "id": 12,
+      "name": "Python",
+      "icon": "fa-brands fa-python",
+      "percent": 30
+    },
+    {
+      "id": 13,
+      "name": "C#",
+      "icon": "fa-brands fa-cuttlefish",
+      "percent": 40
+    },
+    {
+      "id": 14,
+      "name": "MySQL",
+      "icon": "fa-solid fa-database",
+      "percent": 40
+    },
+    {
+      "id": 15,
+      "name": "Wordpress",
+      "icon": "fa-brands fa-wordpress",
+      "percent": 30
+    },
+    {
+      "id": 16,
+      "name": "Joomla",
+      "icon": "fa-brands fa-joomla",
+      "percent": 30
+    },
+    {
+      "id": 17,
+      "name": "Github",
+      "icon": "fa-brands fa-github",
+      "percent": 50
+    }
+  ],
+  "languages": [
+    {
+      "id": 1,
+      "name": "Angol",
+      "percent": 40
+    }
+  ]
+}
