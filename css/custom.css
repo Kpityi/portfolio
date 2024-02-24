@@ -100,21 +100,3 @@ footer a {
     margin-left: -10;
   }
 }
-
-/* @media only screen and (max-width: 1050px) {
-  .skill-box{
-    display: grid;
-    grid-template-columns: auto auto;
-    margin: .1rem;
-  }
-
-}
-
-@media only screen and (max-width:380px) {
-  .skill-box{
-    display: grid;
-    grid-template-columns: auto ;
-    margin: .1rem;
-  }
-
-} */
