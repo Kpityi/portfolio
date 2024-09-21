@@ -1,6 +1,6 @@
 const skillBox = document.querySelector(".skill-box");
 
-const technologies = fetch("../json/technologies.json")
+const technologies = fetch("../Json/technologies.json")
   .then((response) => response.json())
   .then((data) => {
     data = data.technologies;
