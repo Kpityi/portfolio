@@ -41,8 +41,7 @@ const technologies = fetch("../json/skills.json")
           aria-valuemax="100">
           <span class="progress-bar" style="width: ${language.percent}%"></span>
         </span>
-      </div>      
-    `;
+      </div>`;
     });
   })
   .catch((e) => console.log(e));
