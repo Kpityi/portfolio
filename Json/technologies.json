@@ -77,8 +77,18 @@
     },
     {
       "id": 16,
-      "name": "Github",
+      "name": "DevOps",
+      "logo": "devops.png"
+    },
+    {
+      "id": 17,
+      "name": "GitHub",
       "logo": "github.png"
+    },
+    {
+      "id": 18,
+      "name": "GitLab",
+      "logo": "gitlab.png"
     }
   ]
 }
