@@ -1,7 +1,7 @@
 const cvSkills = document.querySelector(".cv-skills");
 const languagesBox = document.querySelector(".language");
 
-const technologies = fetch("../json/skills.json")
+const technologies = fetch("../Json/skills.json")
   .then((response) => response.json())
   .then((data) => {
     console.log(data);
