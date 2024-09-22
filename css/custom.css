@@ -39,7 +39,8 @@ section {
   font-weight: bolder;
   text-shadow: 0.4rem 0.1rem 0.4rem;
 }
-.skill-box {
+.main-skill-box,
+.other-skill-box {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(160px, 2fr));
   grid-gap: 0.1rem;

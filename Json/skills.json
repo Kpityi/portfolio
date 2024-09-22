@@ -1,22 +1,22 @@
 {
   "skills": [
     {
-      "id": 1,
-      "name": "Microsoft Office",
-      "icon": "fa-brands fa-windows",
-      "percent": 40
+      "id": 9,
+      "name": "React",
+      "icon": "fa-brands fa-react",
+      "percent": 30
     },
     {
-      "id": 2,
-      "name": "Microsoft Windows",
-      "icon": "fa-brands fa-microsoft",
-      "percent": 70
+      "id": 11,
+      "name": "NodeJS",
+      "icon": "fa-brands fa-node",
+      "percent": 20
     },
     {
-      "id": 3,
-      "name": "Adobe Photoshop",
-      "icon": "fa-regular fa-images",
-      "percent": 40
+      "id": 7,
+      "name": "JavaScript",
+      "icon": "fa-brands fa-js",
+      "percent": 60
     },
     {
       "id": 4,
@@ -37,21 +37,9 @@
       "percent": 40
     },
     {
-      "id": 7,
-      "name": "JavaScript",
-      "icon": "fa-brands fa-js",
-      "percent": 60
-    },
-    {
       "id": 8,
       "name": "AngularJS",
       "icon": "fa-brands fa-anhular",
-      "percent": 30
-    },
-    {
-      "id": 9,
-      "name": "React",
-      "icon": "fa-brands fa-react",
       "percent": 30
     },
     {
@@ -61,16 +49,10 @@
       "percent": 20
     },
     {
-      "id": 11,
-      "name": "NodeJS",
-      "icon": "fa-brands fa-node",
-      "percent": 20
-    },
-    {
       "id": 12,
       "name": "Python",
       "icon": "fa-brands fa-python",
-      "percent": 30
+      "percent": 20
     },
     {
       "id": 13,
@@ -107,6 +89,24 @@
       "name": "Github",
       "icon": "fa-brands fa-github",
       "percent": 50
+    },
+    {
+      "id": 1,
+      "name": "Microsoft Office",
+      "icon": "fa-brands fa-windows",
+      "percent": 40
+    },
+    {
+      "id": 2,
+      "name": "Microsoft Windows",
+      "icon": "fa-brands fa-microsoft",
+      "percent": 70
+    },
+    {
+      "id": 3,
+      "name": "Adobe Photoshop",
+      "icon": "fa-regular fa-images",
+      "percent": 40
     }
   ],
   "languages": [

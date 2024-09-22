@@ -3,92 +3,116 @@
     {
       "id": 1,
       "name": "Adobe Photoshop",
+      "class": "other",
       "logo": "photoshop.png"
+    },
+    {
+      "id": 7,
+      "name": "React",
+      "class": "main",
+      "logo": "react.png"
+    },
+    {
+      "id": 9,
+      "name": "NodeJS",
+      "class": "main",
+      "logo": "nodeJs.png"
+    },
+    {
+      "id": 5,
+      "name": "JavaScript",
+      "class": "main",
+      "logo": "js.png"
     },
     {
       "id": 2,
       "name": "HTML",
+      "class": "main",
       "logo": "html5.png"
     },
     {
       "id": 3,
       "name": "CSS - SCSS",
+      "class": "main",
       "logo": "css3.png"
     },
     {
       "id": 4,
       "name": "Bootstrap",
+      "class": "main",
       "logo": "Bootstrap.png"
-    },
-    {
-      "id": 5,
-      "name": "JavaScript",
-      "logo": "js.png"
     },
     {
       "id": 6,
       "name": "AngularJS",
+      "class": "main",
       "logo": "AngularJS.png"
-    },
-    {
-      "id": 7,
-      "name": "React",
-      "logo": "react.png"
     },
     {
       "id": 8,
       "name": "PHP",
+      "class": "main",
       "logo": "php.png"
-    },
-    {
-      "id": 9,
-      "name": "NodeJS",
-      "logo": "nodeJs.png"
     },
     {
       "id": 10,
       "name": "Python",
+      "class": "main",
       "logo": "python.png"
     },
     {
       "id": 11,
       "name": "C#",
+      "class": "main",
       "logo": "csharp.png"
     },
     {
       "id": 12,
       "name": "MySQL",
+      "class": "main",
       "logo": "MySQL.png"
     },
     {
       "id": 13,
       "name": "Adatbázis kezelés",
+      "class": "main",
       "logo": "database.png"
     },
     {
       "id": 14,
       "name": "Wordpress",
+      "class": "other",
       "logo": "wp.png"
     },
     {
       "id": 15,
       "name": "Joomla",
+      "class": "other",
       "logo": "joomla.png"
     },
     {
       "id": 16,
       "name": "DevOps",
+      "class": "other",
       "logo": "devops.png"
     },
     {
       "id": 17,
       "name": "GitHub",
+      "class": "other",
       "logo": "github.png"
     },
     {
       "id": 18,
       "name": "GitLab",
+      "class": "other",
       "logo": "gitlab.png"
+    },
+    {
+      "id": 19,
+      "name": "Linux",
+      "class": "other",
+      "logo": "linux.png"
     }
   ]
 }
