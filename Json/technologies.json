@@ -25,6 +25,12 @@
       "logo": "js.png"
     },
     {
+      "id": 20,
+      "name": "TypeScript",
+      "class": "main",
+      "logo": "ts.png"
+    },
+    {
       "id": 2,
       "name": "HTML",
       "class": "main",
